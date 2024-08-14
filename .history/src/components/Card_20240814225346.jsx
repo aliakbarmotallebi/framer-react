@@ -12,7 +12,7 @@ const Card = ({ isDownload }) => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea impedit quisquam asperiores libero beatae accusantium
             </p>
             <div className="footer absolute bottom-0 w-full py-2 left-0">
-                <button className={twMerge("text-white p-2 font-medium w-full", "text-white")}>
+                <button className={`twMerge("text-white p-2 font-medium w-full", )`}>
                     {isDownload ? (
                         <h5>Download Now</h5>
                     ): (

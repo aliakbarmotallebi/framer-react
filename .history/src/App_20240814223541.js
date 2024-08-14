@@ -6,10 +6,8 @@ function App() {
   return (
     <div className="relative h-screen w-full bg-slate-800">
       <Background />
-      <div className="fixed left-0 top-0 z-[3] h-full w-full">
-        <Card />
-        <Card isDownload={true} />
-      </div>
+      <div className="fixed left-0 top-0 z-[3] h-full w-full"></div>
+      <Card />
     </div>
   );
 }

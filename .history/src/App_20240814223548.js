@@ -8,7 +8,6 @@ function App() {
       <Background />
       <div className="fixed left-0 top-0 z-[3] h-full w-full">
         <Card />
-        <Card isDownload={true} />
       </div>
     </div>
   );
