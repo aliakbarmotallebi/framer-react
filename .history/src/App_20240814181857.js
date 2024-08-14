@@ -1,0 +1,11 @@
+function App() {
+  return (
+    <div className="relative h-screen w-full bg-slate-900">
+      <h1 className="rigth-1/2 top-1/2 text-[13vw] font-semibold text-slate-50">
+        DOCS.
+      </h1>
+    </div>
+  );
+}
+
+export default App;
